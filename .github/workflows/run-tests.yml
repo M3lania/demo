@@ -21,6 +21,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env: 
+      MY_USER: "${{ secrets.MY_USER }}"
+      MY_PASS: "${{ secrets.MY_PASS }}"
 
     steps:
     - uses: actions/checkout@v3
