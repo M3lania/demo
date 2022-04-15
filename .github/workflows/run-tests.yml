@@ -6,9 +6,9 @@ name: RUN E2E Tests
 on:
   workflow_dispatch:
     branches: [ main ]
-  schedule:
+  # schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '00 6 * * *'
+    # - cron:  '00 6 * * *'
   push:
     branches: [ main ]
   pull_request:
