@@ -5,6 +5,15 @@ name: RUN All Smoke Tests
 
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: Select the testing environment
+        required: true
+        default: staging
+        options:
+        - production
+        - staging
   schedule:
     - cron:  "00 6 * * *"
  
