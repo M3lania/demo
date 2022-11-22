@@ -1,6 +1,9 @@
 # import os
 # import pytest
 
+def test_given_environment(env):
+    print(env)
+    
 # @pytest.fixture(scope='session')
 # def my_user():
 #     return f"{os.environ['MY_USER']}"
