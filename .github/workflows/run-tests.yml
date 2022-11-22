@@ -5,6 +5,8 @@ name: RUN All Smoke Tests
 
 on:
   workflow_dispatch:
+  schedule:
+  - cron: "0 2 * * 1-5"
   push:
     branches: [ "main" ]
   pull_request:
