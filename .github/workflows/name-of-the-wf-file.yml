@@ -23,7 +23,10 @@ jobs:
   job_name:
 
     runs-on: ubuntu-latest
-
+    env:
+      PASS_1: "${{ secrets.PASS_1 }}"
+      PASS_2: "${{ secrets.PASS_2 }}"
+      
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
