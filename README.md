@@ -29,3 +29,9 @@ GitHub Actions - Demo
 
         pytest -v -s
         pytest -v -s -k test_one_times_one
+
+## Running the Tests Remotely
+
+* Go to [GitHub Actions](https://github.com/M3lania/demo/actions)
+* Click on the `Run workflow` button
+* The tests run automatically on staging every day at 11PM (UTC)
