@@ -5,6 +5,8 @@ name: RUN E2E Tests
 
 on:
   workflow_dispatch:
+  schedule:
+  - cron: "0 2 * * 1-5"
 
 permissions:
   contents: read
