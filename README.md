@@ -33,5 +33,5 @@ GitHub Actions - Demo
 ## Running the Tests Remotely
 
 * Go to [GitHub Actions](https://github.com/M3lania/demo/actions)
-* Click on the `Run workflow` button
+* Click on 'RUN E2E Tests' and then click on the `Run workflow` button
 * The tests run automatically on staging every day at 11PM (UTC)
