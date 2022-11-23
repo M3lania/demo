@@ -19,6 +19,11 @@ GitHub Actions - Demo
 
         cd demo
         pip install -r requirements.txt
+        
+* Create & update a file `.env` and then export the secrets to environment variables:
+
+        cp .env.example .env
+        source .env
 
 * Run all tests or a certain one:
 
