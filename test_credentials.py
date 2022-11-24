@@ -1,8 +1,8 @@
 # import os
 # import pytest
 
-# def test_given_environment(env):
-#     print(env)
+def test_given_environment(env):
+    print(env)
 
 # @pytest.fixture(scope='session')
 # def passwords():
